@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=far2l
+GenericName=far2l
+Comment=File and archive manager
+Exec=AppRun
+Terminal=false
+Categories=Utility;FileManager;
+Icon=far2l
+StartupNotify=true
