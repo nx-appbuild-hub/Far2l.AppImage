@@ -17,7 +17,7 @@ all: clean init
 
 	mkdir --parents $(PWD)/build/Boilerplate.AppDir	
 	$(PWD)/bin/Apprepo.AppImage --destination=$(PWD)/build appdir boilerplate \
-	    libwxgtk3.0-gtk3-0v5 libxi6 libpcre3 libgtk-3-0 \
+	    libwxgtk3.0-gtk3-0v5 libxi6 libpcre3 libgtk-3-0 libicu-dev \
 		libselinux1 libwayland-cursor0
 
 	echo ''                                  >> $(PWD)/build/Boilerplate.AppDir/AppRun
